@@ -12,17 +12,17 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "wp23"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "tfe-git-actoins"
     }
   }
 }
 
 
 provider "aws" {
-  region = "us-west-2"
+  region = "us-west-1"
 }
 
 
